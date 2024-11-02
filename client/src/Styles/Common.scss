@@ -1,0 +1,31 @@
+$primarybg: #FAF7F0;
+$accent: #B17457;
+$text: #4A4947;
+
+.btn{
+    background-color: $accent;
+    color: $primarybg;
+    width: fit-content;
+    margin: auto;
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+    &:hover{
+        background-color: lighten($color: $accent, $amount: 5);
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

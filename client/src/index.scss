@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Poppins;
+}
+
+html{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 700px) {
+    html{
+        font-size: 12px;
+    }    
+}

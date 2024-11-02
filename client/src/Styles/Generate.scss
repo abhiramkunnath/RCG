@@ -1,0 +1,63 @@
+@import "./Common.scss";
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+
+.App {
+  background-color: $primarybg;
+  color: $text;
+  width: 100dvw;
+  height: 100dvh;
+  display: grid;
+  place-content: center;
+  text-align: center;
+
+  h1 {
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 70%;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input[type="file"] {
+      display: none;
+    }
+
+    label {
+      width: 350px;
+      height: 60px;
+      display: grid;
+      place-content: center;
+      border: 3px dashed $accent;
+      border-radius: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      font-size: 1.5rem;
+
+      &:hover {
+        background-color: darken($color: $primarybg, $amount: 4);
+      }
+    }
+
+    .imgBox {
+      width: 350px;
+      height: 350px;
+      border-radius: 0.8rem;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: darken($color: $primarybg, $amount: 4);
+    }
+  }
+
+  .compliment {
+    padding: 1.5rem;
+    font-size: 2rem;
+    width: 50%;
+    margin: auto;
+    font-family: Birthstone;
+    line-height: 2rem;
+  }
+}
