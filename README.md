@@ -27,16 +27,6 @@ For Software:
 - React JS, Node JS, Express
 - Groq AI
 
-### Implementation
-For Software:
-# Installation
-+ run ```npm i``` for both client and server side.
-+ add ```.env``` file with ```GROQ_API_KEY``` and ```PORT``` variables.
-
-# Run
-+ run ```node server.js``` in root directory to start the server.
-+ run ```npm start``` in client directory to run the app.
-
 ### Project Documentation
 # RCG Documentation
 
