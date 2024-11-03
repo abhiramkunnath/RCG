@@ -78,7 +78,7 @@ For Software:
      ```bash
      npm install
      ```
-   - Create a `.env` file in the `backend` directory with the following variables:
+   - Create a `.env` file in the `root` directory with the following variables:
      ```plaintext
      GROQ_API_KEY=your_groq_ai_api_key
      PORT=backend_port_number
